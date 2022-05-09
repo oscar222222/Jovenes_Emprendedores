@@ -155,3 +155,63 @@
 }
 
 
+.imagen {
+    height:75%;
+    display: block;
+    margin: 0px auto;
+    padding-top: 10%;  
+    padding-bottom:10%;
+ 
+}
+.titleR {
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 250%;
+}
+.imagenDiv {
+    width: 70%;
+    height: 70%;
+    margin-top: 10%;
+    margin-left: 15%;
+  
+    background-color: whitesmoke;
+    border-radius: 25px;
+    box-shadow:5px 8px 12px black;
+    position: relative;
+    
+
+}
+
+.titleImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+    position: relative;
+    height: 50%;
+    width: 20%;
+    transition: width 2s, height 2s, margin 2s;
+    -webkit-transition: font-size 1s ease;
+    transition: font-size 1s ease;
+    /*color: red;
+    font-size: 250%;*/
+    
+}
+
+
+
+
+.imagenDiv:hover .titleImg {
+    width: 100%;
+    
+    margin: 0 auto;
+    font-size: 28px;
+    background-color: #3F51B5;
+}
+
+.labelRegister {
+    font-size: larger;
+}
