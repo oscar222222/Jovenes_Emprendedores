@@ -119,7 +119,8 @@
                     <td>
                         <div>
                             <label>
-                                Nosotros somos un grupo de programadores que buscan generar el apoyo suficiente para los Jovenes Emprendedores, para que p
+                                Nosotros somos un grupo de programadores que buscan generar el apoyo suficiente para los Jovenes Emprendedores; proporcional un canal gratuito donde pueda 
+                                subir sus ideas y que sea mucho mas facil el encontrar un posible inversor que pueda ayudar a desarrollar su plan de negocio.
                             </label>
                         </div>
                     </td>
