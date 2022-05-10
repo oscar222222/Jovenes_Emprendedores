@@ -15,6 +15,7 @@ public partial class View_view_young_innova_Registration_of_idea : System.Web.UI
     {
         EIdea idea = new EIdea();
         EUserInformation user1 = (EUserInformation)Session["user"];
+
         string image_name = System.IO.Path.GetFileName(FU_Image.PostedFile.FileName);
         string ext1 = System.IO.Path.GetExtension(FU_Image.PostedFile.FileName);
         string flie_name = System.IO.Path.GetFileName(FU_idea.PostedFile.FileName);
@@ -34,6 +35,7 @@ public partial class View_view_young_innova_Registration_of_idea : System.Web.UI
                 FU_Image.PostedFile.SaveAs(saveLocation);
                 FU_idea.PostedFile.SaveAs(saveLocation3);
                 idea.Id_user2 = user1.Id;
+                idea.Name_idea = TB_NameProject.Text;
                 idea.Registred_idea = TB_Smallidea.Text;
                 idea.Elevator_P = TB_Elevator.Text;
                 idea.Date_idea = DateTime.Now;
@@ -55,4 +57,18 @@ public partial class View_view_young_innova_Registration_of_idea : System.Web.UI
         }
 
     }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+    
+
+      
+                ClientScriptManager n = this.ClientScript;
+                n.RegisterClientScriptBlock(this.GetType(), "", "<script type='text/javascript'>alert('BIENVENIDO INVERSOR '); window.location = '/View//view_young_innova/edite_profileINN.aspx';</script>");
+
+
+
+
+        }
+    
 }

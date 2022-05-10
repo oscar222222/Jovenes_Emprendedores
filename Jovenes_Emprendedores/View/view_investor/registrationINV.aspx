@@ -85,7 +85,7 @@
                 <asp:Label ID="Label4" runat="server" Text="Por favor ingresa el tu contraseña:"></asp:Label>
             </td>
             <td class="auto-style9">
-                <asp:TextBox ID="TPassword1" runat="server" Width="383px"></asp:TextBox>
+                <asp:TextBox ID="TPassword1" runat="server" Width="383px" TextMode="Password"></asp:TextBox>
             </td>
             <td class="auto-style9"></td>
         </tr>
@@ -95,7 +95,7 @@
                 <asp:Label ID="Label5" runat="server" Text="Por favor ingresa tu correo electronico"></asp:Label>
             </td>
             <td class="auto-style3">
-                <asp:TextBox ID="TEmail1" runat="server" Width="383px"></asp:TextBox>
+                <asp:TextBox ID="TEmail1" runat="server" Width="383px" TextMode="Email"></asp:TextBox>
             </td>
             <td class="auto-style3"></td>
         </tr>
@@ -105,7 +105,7 @@
                 <asp:Label ID="Label6" runat="server" Text="Por favor ingresa tu fecha de nacimiento:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="TDateofBirth1" runat="server" Width="383px"></asp:TextBox>
+                <asp:TextBox ID="TDateofBirth1" runat="server" Width="383px" TextMode="DateTime"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
         </tr>

@@ -19,6 +19,7 @@ public class EIdea
     private string elevator_P;
     private string file_idea;
     private DateTime date_idea;
+    private string name_idea;
 
     [Key]
     [Column("id_idea")]  //-> column notations are for referencing the columns of the database table
@@ -35,7 +36,8 @@ public class EIdea
     public string File_idea { get => file_idea; set => file_idea = value; }
     [Column("date_idea")]
     public DateTime Date_idea { get => date_idea; set => date_idea = value; }
+    [Column("name_idea")]
+    public string Name_idea{ get => name_idea; set => name_idea = value; }
 
-    
 
 }

@@ -3,6 +3,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <asp:Label ID="name_projectL" runat="server" Text="NOMBRE DEL PROYECTO"></asp:Label>
+    <br />
+    <asp:TextBox ID="TB_NameProject" runat="server" Width="509px"></asp:TextBox>
+    <br />
     <asp:Label ID="Label1" runat="server" Text="Por favor ingresa una pequeña descripción de tu idea innovadora"></asp:Label>
     <br />
     <asp:TextBox ID="TB_Smallidea" runat="server" Width="509px"></asp:TextBox>
@@ -23,6 +27,9 @@
     <asp:Label ID="Label4" runat="server" Text="por fovor ingresa el link de tu elevator pitch"></asp:Label>
     <br />
     <asp:TextBox ID="TB_Elevator" runat="server" Width="168px"></asp:TextBox>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br />
+    <br />
     <br />
     <br />
     <br />
@@ -30,6 +37,7 @@
     <br />
     <br />
     <br />
+    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="ir a pagina de editar perfil" />
     <br />
     <br />
     <br />
