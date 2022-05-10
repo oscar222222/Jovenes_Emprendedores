@@ -75,7 +75,6 @@
                 <tr>
                     <td colspan="2">
                         <div class="fondoNegro">
-
                         </div>
                         <div class="fondoImagenIndex">
                             <img class="logoIndex" src="../imagenes/logo_large.png" width="75%">
@@ -106,14 +105,14 @@
                     <td colspan="2">
 
                         <div>
-                                <label>JOVENES EMPRENDEDORES...</label>
+                            <label>JOVENES EMPRENDEDORES...</label>
                         </div>
 
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <div >
+                        <div>
                             <img class="logoIndex" src="../imagenes/com_large.png" width="75%">
                         </div>
                     </td>
