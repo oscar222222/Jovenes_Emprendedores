@@ -1,7 +1,11 @@
-﻿body {
-    background-color: #784C4C !important;
-    color: #000000;
-    font-family: 'Roboto', sans-serif;
+﻿
+body {
+    background-image: url("../../imagenes/background-button.png");
+    background-color: black;
+    background-position: center center; /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    background-repeat: no-repeat; /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed; /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover; /* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
 }
 
 
@@ -28,18 +32,17 @@
 }
 
 .frontbox {
-    background-color: whitesmoke;
+    background-color: #564343;
     border-radius: 25px;
-    height: 100%;
+    height: 110%;
     width: 50%;
     z-index: 10;
     position: relative;
-   border: black 10px none;
+    border: black 3px solid;
     right: 0;
     margin-right: 3%;
     margin-left: 50%;
     transition: right .8s ease-in-out;
-   
 }
 
     .frontbox #logoUser {
@@ -47,6 +50,7 @@
         left: 5%;
         top: 29%;
     }
+
     .frontbox #logoPass {
         position: absolute;
         left: 5%;
@@ -97,14 +101,16 @@
 
 /* front box content*/
 .login, .signup {
-    margin-left:10%;
+    margin-left: 10%;
     padding: 20px;
     text-align: center;
 }
 
     .login h1,
     .signup h2 {
-        color: #35B729;
+        font-family: serif;
+        text-decoration: underline black 2px double;
+        color: #000000;
         font-size: 40px;
     }
 
@@ -156,33 +162,33 @@
 
 
 .imagen {
-    height:75%;
+    height: 75%;
     display: block;
     margin: 0px auto;
-    padding-top: 10%;  
-    padding-bottom:10%;
- 
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
+
 .titleR {
     padding-top: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
     font-size: 250%;
+    font-family: serif;
+    text-decoration: underline black 2px double;
+    color: white;
 }
+
 .imagenDiv {
     width: 70%;
     height: 70%;
     margin-top: 10%;
     margin-left: 15%;
-  
-    background-color: whitesmoke;
+    background-color: #C2AFA0;
     border-radius: 25px;
-    box-shadow:5px 8px 12px black;
+    box-shadow: 5px 8px 12px black;
     position: relative;
-    
-
 }
 
 .titleImg {
@@ -198,7 +204,6 @@
     transition: font-size 1s ease;
     /*color: red;
     font-size: 250%;*/
-    
 }
 
 
@@ -206,12 +211,92 @@
 
 .imagenDiv:hover .titleImg {
     width: 100%;
-    
     margin: 0 auto;
-    font-size: 28px;
-    background-color: #3F51B5;
+    font-size: 60px;
+    background-color: #F57205;
 }
 
 .labelRegister {
-    font-size: larger;
+    font-size: xx-large;
+}
+
+.logoIndex {
+    display: block;
+    margin: 0px auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 40%;
+}
+  
+  
+
+.fondoNegro {
+    background-color: black;
+    margin-top: 13%;
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    /* display: inline-flex;*/
+    border-radius: 15px;
+}
+
+.fondoImagenIndex {
+    background-color: white;
+    border-radius: 25px;
+    height: 50%;
+    width: 50%;
+    z-index: 10;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 5%;
+    border: black 3px solid;
+    right: 0;
+    margin-right: 3%;
+    margin-left: 25%;
+}
+
+
+.fondoLabelIndex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 25px;
+    height: 70%;
+    width: 75%;
+    z-index: 10;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 5%;
+    border: black 1px solid;
+    right: 0;
+    margin-right: 3%;
+    margin-left: 15%;
+    padding: 3%;
+}
+
+
+.tablero {
+    margin-top: 10%;
+    border-radius: 20px;
+    height: 30%;
+    width: 30%;
+    margin-left: 10%;
+   
+}
+.tablero2 {
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-right: 20%;
+    background-color: #B5B9F3;
+    border: black 1px solid;
+    border-radius: 20px;
+}
+.tablero3 {
+    margin-left: 5%;
+    margin-top: 5%;
 }

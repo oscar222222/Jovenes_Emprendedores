@@ -12,6 +12,44 @@
 </head>
 <body>
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarCenteredExample"
+                aria-controls="navbarCenteredExample"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div
+                class="collapse navbar-collapse justify-content-center"
+                id="navbarCenteredExample">
+                <!-- Left links -->
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="Index.aspx">
+                            <img src="../imagenes/logo_small.png" width="150px" alt="" style="padding-left: 10%;">
+                        </a>
+                    </li>
+                   
+                    <!-- Navbar dropdown -->
+
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+
+
     <div class="container">
         <div class="backbox">
             <div class="loginMsg">
@@ -48,13 +86,16 @@
 
                                 <!-- <input type="text" name="email" placeholder="  EMAIL">
                                 <input type="password" name="password" placeholder="  PASSWORD"> -->
-                                
+
                             </div>
                             <div style="color: #FF0000">
                                 <asp:Literal ID="FailureText" runat="server" EnableViewState="False"></asp:Literal>
 
                             </div>
                             <asp:LinkButton ID="Button1" runat="server" Width="20%" CommandName="Login" CssClass="form-control btn btn-primary btn-block" Text="Log In" ValidationGroup="Login1" />
+                            <br />
+                            <br />
+                            <a href="register.aspx">registrarse...</a>
                             <br />
                             <div>
                                 <br />
@@ -66,6 +107,7 @@
 
                     </asp:Login>
                     &nbsp;
+               
                 </form>
             </div>
 
