@@ -28,6 +28,8 @@ public partial class View_Login : System.Web.UI.Page
         else
         {
             Session["user"] = user;
+            Session["username"] = user.Username;
+            Session["id"] = user.Id;
 
 
 
@@ -37,18 +39,18 @@ public partial class View_Login : System.Web.UI.Page
                 case 1:
 
                     ClientScriptManager cm = this.ClientScript;
-                    cm.RegisterClientScriptBlock(this.GetType(), "", "<script type='text/javascript'>alert('BIENVENIDO SEÑOR ADMINISTRADOR'); window.location = 'Login.aspx';</script>");
+                    cm.RegisterClientScriptBlock(this.GetType(), "", "<script type='text/javascript'>alert('BIENVENIDO SEÑOR ADMINISTRADOR'); window.location = '/View//view_admin/editProfile.aspx';</script>");
 
 
                     break;
                 case 2:
                     ClientScriptManager n = this.ClientScript;
-                    n.RegisterClientScriptBlock(this.GetType(), "", "<script type='text/javascript'>alert('BIENVENIDO INVERSOR ESPERAMOS QUE ENCUENTRES UN PROYECTO DE INTERES'); window.location = 'Login.aspx';</script>");
+                    n.RegisterClientScriptBlock(this.GetType(), "", "<script type='text/javascript'>alert('BIENVENIDO INVERSOR ESPERAMOS QUE ENCUENTRES UN PROYECTO DE INTERES'); window.location = '/View//view_investor/edite_profile.aspx';</script>");
 
                     break;
                 case 3:
                     ClientScriptManager j = this.ClientScript;
-                    j.RegisterClientScriptBlock(this.GetType(), "", "<script type='text/javascript'>alert('BIENVENIDO INVERSOR ESPERAMOS QUE ENCUENTRES UN PROYECTO DE INTERES'); window.location = 'Login.aspx';</script>");
+                    j.RegisterClientScriptBlock(this.GetType(), "", "<script type='text/javascript'>alert('BIENVENIDO JOVEN INNOVADOR'); window.location = '/View//view_young_innova/Registration_of_idea.aspx';</script>");
 
 
                     break;
