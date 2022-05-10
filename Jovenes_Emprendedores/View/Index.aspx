@@ -37,18 +37,18 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#qs">¿Quienes Somos?</a>
                     </li>
-                    <li class="nav-item">
+                   <!-- <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
                     </li>
 
+                    -->
 
-
-
+                    <!--
                     <li class="nav-item">
                         <a class="nav-link disabled">Disabled</a>
-                    </li>
+                    </li> -->
                 </ul>
                 <form class="d-flex input-group w-auto">
                     <button
@@ -70,10 +70,10 @@
             <table class="auto-style1" border="0">
                 <tr>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td colspan="2">
+                    <td colspan="3">
                         <div class="fondoNegro">
                         </div>
                         <div class="fondoImagenIndex">
@@ -83,32 +83,69 @@
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td colspan="2">
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="width: 25%;">&nbsp;</td>
+                    <td style="width: 50%;">
 
-                        <div>
-                            <label>JOVENES EMPRENDEDORES...</label>
+                        <div class="fondoLabelIndex" id="qs">
+                            <label style="font-family: 'Times New Roman'; font-size: 200%;">
+                                JOVENES EMPRENDEDORES...</label>
                         </div>
 
                     </td>
+
+                    <td style="width: 25%;">&nbsp;</td>
+
+                </tr>
+                 <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
                 </tr>
                 <tr>
                     <td>
@@ -116,30 +153,129 @@
                             <img class="logoIndex" src="../imagenes/com_large.png" width="75%">
                         </div>
                     </td>
-                    <td>
-                        <div>
-                            <label>
+                    <td colspan="2">
+                        <div class="fondoLabelIndex" style="background-color: #C5DAE4;">
+                            <label style="font-family: 'Times New Roman'; font-size: 120%;">
                                 Nosotros somos un grupo de programadores que buscan generar el apoyo suficiente para los Jovenes Emprendedores; proporcional un canal gratuito donde pueda 
                                 subir sus ideas y que sea mucho mas facil el encontrar un posible inversor que pueda ayudar a desarrollar su plan de negocio.
+                               
+                              
                             </label>
                         </div>
                     </td>
                 </tr>
-                <tr>
+                 <tr>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
                     <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="fondoLabelIndex" style="background-color: #C5DAE4;">
+                            <label style="font-family: 'Times New Roman'; font-size: 120%;">
+                                El grupo de jovenes innovadores, cumplen el papel de dar a conocer sus ideas, de organizar todo 
+                                de manera que sea mucho mas sencillo encontrar un socio para su idea de negocio.
+                                <br />
+                                <a href="register.aspx">registrate joven innovador...</a>
+
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <img class="logoIndex" src="../imagenes/iindex/inn3.jpg" width="80%" >
+                    </td>
+
+                </tr>
+                 <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <img class="logoIndex" src="../imagenes/iindex/inversor2.jpg" width="100%">
+                        </div>
+                    </td>
+                    <td colspan="2">
+                        <div class="fondoLabelIndex" style="background-color: #C5DAE4;">
+                            <label style="font-family: 'Times New Roman'; font-size: 120%;">
+                                El inversor, podra navegar en buscar de un socio que tenga una idea que lo 
+                                motive a patrocinar, invertir o hasta comprar.
+                                 <br />
+                                <a href="register.aspx">registrate Inversor...</a>
+
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="fondoLabelIndex" style="background-color: #C5DAE4;">
+                            <label style="font-family: 'Times New Roman'; font-size: 120%;">
+                                El proposito directo es generar un beneficio para ambas partes, el joven innovador podra tener en 
+                                funcionamiento su proyecto, cumpliendo su sueño de aventarse al mercado; el inversor por otra parte
+                                tambien tendra sus beneficios ya sea economico, social, etc, todo sera dependiendo de la ambicion...
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <img class="logoIndex" src="../imagenes/iindex/innovador1.jpg" width="100%">
+                    </td>
                 </tr>
             </table>
         </div>
