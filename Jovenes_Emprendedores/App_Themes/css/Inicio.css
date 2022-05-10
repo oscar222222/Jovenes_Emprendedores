@@ -1,7 +1,11 @@
-﻿body {
-    background-color: #784C4C !important;
-    color: #000000;
-    font-family: 'Roboto', sans-serif;
+﻿
+body {
+    background-image: url("../../imagenes/background-button.png");
+    background-color: black;
+    background-position: center center; /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    background-repeat: no-repeat; /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed; /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover; /* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
 }
 
 
@@ -28,18 +32,17 @@
 }
 
 .frontbox {
-    background-color: whitesmoke;
+    background-color: #564343   ;
     border-radius: 25px;
     height: 100%;
     width: 50%;
     z-index: 10;
     position: relative;
-   border: black 10px none;
+    border: black 3px solid;
     right: 0;
     margin-right: 3%;
     margin-left: 50%;
     transition: right .8s ease-in-out;
-   
 }
 
     .frontbox #logoUser {
@@ -104,7 +107,9 @@
 
     .login h1,
     .signup h2 {
-        color: #35B729;
+        font-family: serif;
+        text-decoration: underline black 2px double;
+        color: #000000;
         font-size: 40px;
     }
 
@@ -168,21 +173,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
     font-size: 250%;
+    font-family: serif;
+    text-decoration: underline black 2px double;
+    color: white;
+
 }
 .imagenDiv {
     width: 70%;
     height: 70%;
     margin-top: 10%;
     margin-left: 15%;
-  
-    background-color: whitesmoke;
+    background-color: #C2AFA0;
     border-radius: 25px;
-    box-shadow:5px 8px 12px black;
+    box-shadow: 5px 8px 12px black;
     position: relative;
-    
-
 }
 
 .titleImg {
@@ -206,12 +211,48 @@
 
 .imagenDiv:hover .titleImg {
     width: 100%;
-    
     margin: 0 auto;
-    font-size: 28px;
-    background-color: #3F51B5;
+    font-size: 60px;
+    background-color: #F57205;
 }
 
 .labelRegister {
-    font-size: larger;
+    font-size: xx-large;
+}
+
+.logoIndex {
+    display: block;
+    margin: 0px auto;
+    margin-top: 10%;
+    margin-bottom:10%;
+}
+
+
+.fondoNegro {
+    background-color: black;
+    margin-top:13%;
+    width: 100%;
+   height:15%;
+    position:absolute ; 
+    
+    /* display: inline-flex;*/
+    border-radius: 15px;
+}
+
+.fondoImagenIndex {
+    background-color: white;
+    border-radius: 25px;
+    height: 50%;
+    width: 50%;
+    z-index: 10;
+    position: relative;
+    top:0;
+    left:0;
+    margin-top:5%;
+ border: black 3px solid;
+    right: 0;
+    
+    margin-right: 3%;
+    margin-left: 25%;
+    
 }

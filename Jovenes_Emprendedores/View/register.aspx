@@ -19,7 +19,6 @@
         }
 
         .auto-style4 {
-            
         }
     </style>
 </head>
@@ -37,8 +36,7 @@
                             <img class="imagen" src="../imagenes/emp.png" width="70%">
                             <div class="titleImg">
                                 <label>
-                                    <span class="labelRegister">Innovador</span>
-
+                                    Innovador
                                 </label>
                             </div>
                         </div>
@@ -48,9 +46,8 @@
                         <div class="imagenDiv">
                             <img class="imagen" src="../imagenes/inve.png" width="70%">
                             <div class="titleImg">
-                                <label >
+                                <label>
                                     Inversor
-
                                 </label>
                             </div>
                         </div>
