@@ -53,5 +53,15 @@ public class DAORegis
             entry.State = EntityState.Modified;
             db.SaveChanges();  //-> confirm the save in the table
         }
+
+      
+
+    }
+    public List<EIdea> GSaerch(string name)
+    {
+        using (var db = new Mapping())
+        {
+            return db.Idea.Where(x => x.Registred_idea.Contains(name)).ToList();// metodo de busqueda
+        }
     }
 }

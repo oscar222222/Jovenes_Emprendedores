@@ -12,8 +12,19 @@ public partial class View_view_investor_edite_profile : System.Web.UI.Page
         
     }
 
-    protected void FormView1_PageIndexChanging(object sender, FormViewPageEventArgs e)
+
+
+
+    protected void FormView1_ItemUpdated(object sender, FormViewUpdatedEventArgs e)
     {
-        EUserInformation user1 = (EUserInformation)Session["user"];
+        if (e.NewValues["Date_of_birth"].Equals(""))
+        {
+            e.NewValues["Date_of_birth"] = e.OldValues["Date_of_birth"];
+        }
+
+        if (e.NewValues["Password"].Equals(""))
+        {
+            e.NewValues["Password"] = e.OldValues["Password"];
+        }
     }
 }

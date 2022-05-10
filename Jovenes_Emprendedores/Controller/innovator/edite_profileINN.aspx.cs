@@ -19,5 +19,10 @@ public partial class View_view_young_innova_edite_profileINN : System.Web.UI.Pag
         {
             e.NewValues["Date_of_birth"] = e.OldValues["Date_of_birth"];
         }
+
+        if (e.NewValues["Password"].Equals(""))
+        {
+            e.NewValues["Password"] = e.OldValues["Password"];
+        }
     }
 }
